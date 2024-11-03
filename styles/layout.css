@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-gap: 8px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    grid-template-columns: 10vw 70vw 10vw;
+    grid-template-rows: 1fr 80vh;
+    grid-template-areas: "head head head" "freq posts navigate";
+}
+
+.area {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
