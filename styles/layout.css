@@ -1,3 +1,7 @@
+html {
+    font-family: sans-serif;
+}
+
 .container {
     display: grid;
     grid-gap: 8px;
@@ -6,15 +10,13 @@
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: center;
-    grid-template-columns: 10vw 70vw 10vw;
-    grid-template-rows: 1fr 80vh;
-    grid-template-areas: "head head head" "freq posts navigate";
+    grid-template-columns: 1fr;
+    grid-template-areas: "head" "posts" "freq" "navigate";
 }
 
 .area {
     display: flex;
     flex-direction: column;
-    /* border: 1px solid red; */
     justify-content: center;
     align-items: center;
 }
