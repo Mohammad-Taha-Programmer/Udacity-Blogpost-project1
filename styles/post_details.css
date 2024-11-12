@@ -1,0 +1,48 @@
+    @import url(../styles/responsiveness.css);
+
+    /* Basic Styling */
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background: #f4f4f9;
+        margin: 0;
+        padding: 20px;
+        color: #333;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #4a4a4a;
+    }
+
+    .post-head {
+        font-size: 0.9em;
+        color: #777;
+        margin-bottom: 20px;
+    }
+
+    .post-logo img {
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .content article {
+        margin-bottom: 1.5em;
+        text-align: justify;
+    }
+
+    .content section {
+        margin-bottom: 1.5em;
+        text-align: justify;
+    }
