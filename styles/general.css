@@ -1,3 +1,4 @@
+
 #header {
   grid-area: head;
   background-image: url("/assets/logo.png");
@@ -49,8 +50,7 @@
   background-color: rgb(235, 235, 235);
   flex-direction: row;
   flex-wrap: wrap;
-  align-items: start;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 #freq {
@@ -63,9 +63,24 @@
 
 #navigator {
   grid-area: navigate;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
   border-bottom-right-radius: 30px;
   background-color: rgb(235, 235, 235);
   justify-content: flex-start;
+  align-items: center;
+}
+
+.home-link {
+  display: flex;
+  padding: 30px;
+  border-radius: 8px;
+  font-size: x-large;
+  margin: 10px;
+  justify-content: center;
+  border: 1px solid rgb(76, 71, 71);
+  background-color: rgb(228, 255, 255);
 }
 
 #logo_group {
@@ -84,5 +99,48 @@ ul {
   line-height: 2;
   text-decoration: underline;
   font-size: larger;
+}
+
+.top-menu{
+  position: fixed;
+  top: 0px;
+  display: flex;
+  width: 100%;
+  background: #c7c7c7;
+  padding: 16px;
+  justify-content: space-between;
+}
+
+.menu-item{
+  font-size: 20px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.menu-item:hover{
+  opacity: 0.7
+}
+
+.right-section{
+  display: flex;
+  gap: 5
+}
+
+.search-input{
+  margin-right: 16px;
+}
+
+.footer{
+  display: flex;
+  grid-area: footer;
+  justify-content: space-around;
+  width: 90vw;
+  background: #c7c7c7;
+  padding: 20px;
+margin: auto;
+}
+
+.footer-anchor{
+  padding: 5px;
 }
 
