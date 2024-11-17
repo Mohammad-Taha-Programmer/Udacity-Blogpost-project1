@@ -30,10 +30,9 @@ h1 {
 }
 
 header {
-  display: flex;
-  flex-direction:row;
-  align-items:center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  grid-template-areas: "blogNav" "blogHead";
   padding: 20px;
   background-color: #f8f8f8;
   grid-area: hd;
@@ -50,6 +49,7 @@ header {
   color: #fff;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .logo {
@@ -101,3 +101,47 @@ footer p {
 }
 
 
+.post-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+
+.post-head img {
+  width: 50%;
+}
+
+.pub-details {
+  display: block;
+}
+
+#blog-post-nav {
+  grid-area: blogNav;
+  background-color: #777;
+  border-radius: 5px;
+  
+}
+
+#blog-post-nav ul a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#blog-post-nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  padding: 16px;
+
+}
+
+
+
+#blog-post-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  grid-area: blogHead;
+}

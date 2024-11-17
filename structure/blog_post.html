@@ -5,27 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Post | Coffee With Croissant</title>
     <link rel="stylesheet" href="../styles/post_details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
   <body>
     <section class="container">
       <header>
-        <section>
-            <button class="back-button">Back</button>
+        <nav>
+          <section id="blog-post-nav">
+            <ul>
+              <li><a href="#">Similar Topics</a></li>
+              <li><a href="#">Publiser's Posts</a></li>
+              <li><a href="#">Publisers With Same Intereset</a></li>
+            </ul>
+          </section>
+        </nav>
+        <section id="blog-post-head">
+          <section >
+            <a href="../index.html" class="back-button">Back</a>
+          </section>
+          <section class="post-head">
+            <h1>Coffee With Croissant</h1>
+            <section class="pub-details">
+              <img src="../assets/avatar-icon.jpg" alt="user avatar" /><br />
+              <span><strong>Name:</strong> example user</span><br />
+              <span><strong>Title:</strong> example Title</span><br />
+              <span><strong>Current Company:</strong> example Company</span>
+              <section class="pub-bio">
+                <strong>Short Bio:</strong>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Explicabo hic blanditiis ipsum repellat doloremque, vero qui cum
+                  quisquam illum distinctio.
+                </p>
+                <a
+                  href="https://www.facebook.com/"
+                  class="footer-anchor"
+                  target="_blank"
+                  ><i class="fab fa-facebook"></i> Facebook</a
+                >
+                <a
+                  href="https://www.instagram.com/"
+                  class="footer-anchor"
+                  target="_blank"
+                  ><i class="fab fa-instagram"></i> Instagram</a
+                >
+                <a
+                  href="https://www.linkedin.com/feed/?nis=true"
+                  class="footer-anchor"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i> LinkedIn</a
+                >
+              </section>
+              <span><strong>Date:</strong> Nov 5, 2024</span>
+            </section>
+          </section>
+  
+          <section>
+            <a href="../index.html" class="logo-link">
+              <!-- This home_icon image has been taken from https://icon-library.com/icon/icon-for-home-19.html -->
+              <img src="../assets/home_icon.jpg" alt="Logo" class="logo" />
+            </a>
+          </section>
         </section>
-        <section class="post-head">
-          <h1>Coffee With Croissant</h1>
-          <span><strong>Published by:</strong> example user</span> |
-          <span><strong>Date:</strong> Nov 5, 2024</span>
-        </section>
-         
-        <section class="header-container">
-         
-          <a href="../index.html" class="logo-link">
-            <!-- This home_icon image has been taken from https://icon-library.com/icon/icon-for-home-19.html -->
-            <img src="../assets/home_icon.jpg" alt="Logo" class="logo" />
-          </a>
-        </section>
-
 
       </header>
 
@@ -54,7 +98,11 @@
           <section>
             The science behind coffee's effects on the brain is fascinating.
             Studies show that
-            <strong>caffeine stimulates the central nervous system</strong>,
+            <blockquote cite="https://www.healthline.com/nutrition/coffee-brain#brain-function/">
+              <strong>caffeine stimulates the central nervous system</strong>
+              <footer><cite>Kim Rose-Francis RDN, CDCES, LD, Nutrition - Written by Hrefna Palsdottir.</cite></footer>
+            </blockquote>
+            
             providing temporary alertness. Paired with a croissant, which offers
             <b>carbohydrates</b> for energy, this breakfast choice becomes a
             perfect balance.
